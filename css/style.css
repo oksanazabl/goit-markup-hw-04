@@ -89,7 +89,9 @@ img {
 .head {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
 }
 .head .container {
   display: flex;
@@ -159,6 +161,8 @@ img {
 .footer {
   background-color: var(--b-dark);
   min-height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .logo-white {
@@ -247,6 +251,7 @@ img {
 
 .description-title {
   color: var(--txt-dark);
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -255,6 +260,7 @@ img {
 }
 
 .description {
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -278,14 +284,18 @@ img {
 .footer .container,
 .item-box .container {
   width: 1200px;
-  padding: 94px 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
 }
 
+.item-box {
+  margin-top: 94px;
+}
+
 .item .container {
-  padding: 0 15px 94px 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -303,6 +313,7 @@ img {
 .team {
   background-color: var(--b-middle);
   min-height: 648px;
+  padding-top: 94px;
 }
 
 .card-box {
@@ -317,6 +328,7 @@ img {
 .team-card {
   width: 270px;
   height: 368px;
+  background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -357,10 +369,15 @@ img {
   margin-right: 8px;
 }
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio .container {
   width: 1200px;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  /*margin-top: 94px;
+  margin-bottom: 94px;*/
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
