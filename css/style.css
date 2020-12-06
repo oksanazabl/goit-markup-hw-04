@@ -349,11 +349,6 @@ img {
   padding-right: 10px;
 }
 
-.example-column {
-  display: flex;
-  flex-direction: column;
-}
-
 .principle-icon {
   display: flex;
   justify-content: center;
@@ -374,7 +369,7 @@ img {
   width: 270px;
 }
 
-.example-column:not(:last-child) {
+.principle:not(:last-child) {
   margin-right: 30px;
 }
 
