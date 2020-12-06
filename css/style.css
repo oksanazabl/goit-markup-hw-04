@@ -190,11 +190,13 @@ img {
 }
 
 .link-addres {
+  font-family: var(--main-font);
   color: var(--txt-light);
   margin-bottom: 9px;
 }
 
 .link-contact {
+  font-family: var(--main-font);
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -382,18 +384,32 @@ img {
 .social-list {
   display: flex;
   justify-content: space-between;
-  /*padding-right: 32px;
-  padding-left: 32px;
-  margin-top: 16px;*/
 }
 
 .social-list-link {
-  display: block;
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
 }
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--txt-light);
+}
+
+/*.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--b-blue);
+}*/
 /*=========== END about ===========*/
 
 /*portfolio page*/
