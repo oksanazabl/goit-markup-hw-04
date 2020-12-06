@@ -233,9 +233,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-element {
-}
-
 .list-element:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -386,7 +383,8 @@ img {
 }
 
 .item-box .container,
-.item-box-principle .container {
+.item-box-principle .container,
+.team .container {
   width: 1200px;
   padding: 0 15px;
   margin-left: auto;
@@ -417,12 +415,12 @@ img {
   margin-right: 30px;
 }
 
-//*==== TEAM ====*/
+/*==== TEAM ====*/
 
 .team {
   background-color: var(--b-middle);
   min-height: 648px;
-  padding-top: 94px;
+  padding: 94px 0;
 }
 
 .card-box {
@@ -502,7 +500,7 @@ img {
   background-color: var(--accent-background);
 }
 
-//*==== CLIENT ====*/
+/*==== CLIENT ====*/
 .list client {
   display: flex;
 }
