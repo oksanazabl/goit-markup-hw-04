@@ -515,8 +515,6 @@ img {
   justify-content: center;
   width: 170px;
   height: 90px;
-  border: 1px solid var(--light);
-  border-radius: 4px;
 }
 
 .client-link {
@@ -526,6 +524,8 @@ img {
   align-items: center;
   justify-content: center;
   margin: auto;
+  border: 1px solid var(--light);
+  border-radius: 4px;
 }
 
 .client-link:focus .client-logo-icon,
@@ -536,7 +536,6 @@ img {
 .client-link:focus,
 .client-link:hover {
   border: 1px solid var(--accent-background);
-  outline: none;
 }
 
 .client-logo-icon {
