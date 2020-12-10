@@ -84,6 +84,7 @@ img {
 .address:focus .link-icon {
   fill: var(--txt-bleu);
   color: var(--txt-bleu);
+  outline: none;
 }
 
 .link-items:hover,
@@ -95,6 +96,7 @@ img {
 .link-addres:focus,
 .link-addres:hover {
   color: var(--txt-bleu);
+  outline: none;
 }
 
 /*=========== END Common ===========*/
@@ -161,6 +163,7 @@ img {
   display: flex;
   color: var(--txt-grey);
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -494,6 +497,7 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-background);
+  outline: none;
 }
 
 /*==== CLIENT ====*/
@@ -532,6 +536,7 @@ img {
 .client-link:focus,
 .client-link:hover {
   border: 1px solid var(--accent-background);
+  outline: none;
 }
 
 .client-logo-icon {
@@ -583,6 +588,7 @@ img {
   background-color: var(--b-blue);
   color: var(--txt-light);
   border: none;
+  outline: none;
 }
 
 .work-example {
@@ -600,9 +606,16 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.portfolio-card:hover {
+.ecxample-card {
+  display: block;
+}
+
+.ecxample-card:hover,
+.ecxample-card:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-card:nth-child(3n) {
