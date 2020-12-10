@@ -89,12 +89,12 @@ img {
 
 .link-items:hover,
 .link-items:focus,
-.address:hover,
-.address:focus,
 .link-contact:hover,
 .link-contact:focus,
+.link-addres:hover,
 .link-addres:focus,
-.link-addres:hover {
+.address:hover,
+.address:focus {
   color: var(--txt-bleu);
   outline: none;
 }
@@ -536,6 +536,7 @@ img {
 .client-link:focus,
 .client-link:hover {
   border: 1px solid var(--accent-background);
+  outline: none;
 }
 
 .client-logo-icon {
