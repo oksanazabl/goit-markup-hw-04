@@ -80,14 +80,12 @@ img {
   border-radius: 4px;
 }
 
-.nav-listitems:hover .link-icon,
-.nav-listitems:focus .link-icon {
+.address:hover .link-icon,
+.address:focus .link-icon {
   fill: var(--txt-bleu);
   color: var(--txt-bleu);
 }
 
-.nav-listitems:hover,
-.nav-listitems:focus,
 .link-items:hover,
 .link-items:focus,
 .address:hover,
@@ -160,6 +158,7 @@ img {
 }
 
 .address {
+  display: flex;
   color: var(--txt-grey);
   font-weight: 500;
   font-size: 14px;
@@ -487,11 +486,13 @@ img {
   margin-right: 10px;
 }
 
-.social-list-link:hover .social-list-icon {
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
   fill: var(--white);
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: var(--accent-background);
 }
 
@@ -514,13 +515,22 @@ img {
   border-radius: 4px;
 }
 
-.client-icon:focus .client-logo-icon,
-.client-icon:hover .client-logo-icon {
+.client-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.client-link:focus .client-logo-icon,
+.client-link:hover .client-logo-icon {
   fill: var(--accent-background);
 }
 
-.client-icon:focus,
-.client-icon:hover {
+.client-link:focus,
+.client-link:hover {
   border: 1px solid var(--accent-background);
 }
 
@@ -568,7 +578,8 @@ img {
   padding: 6px 22px;
 }
 
-.btn-portfolio:hover {
+.btn-portfolio:hover,
+.btn-portfolio:focus {
   background-color: var(--b-blue);
   color: var(--txt-light);
   border: none;
